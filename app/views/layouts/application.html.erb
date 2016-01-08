@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Workspace</title>
+  <title>Gatebook</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
-</body>
-</html>
+  <header class="navbar">
+    <div class="container">
+      <div id="logo">Gatebook</div>
+      <ul class="header-right">
+        <li><%= link_to "トップ", root_path %></li>
+        <li><%= link_to "概要", about_path %></li>
+        <li><%= link_to "ユーザー一覧", users_path %></li>
+      </ul>
+    </div>
+  </header>
+  
+  <div class="container">
+    <%= yield %>
+  </div>
