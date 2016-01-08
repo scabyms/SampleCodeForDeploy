@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* line 1, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+li {
+  list-style: none;
+}
+
+/* line 6, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.header {
+  height: 65px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 12, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.header-left {
+  float: left;
+  padding: 10px 60px;
+  color: #ED7000;
+  font-size: 30px;
+}
+
+/* line 20, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.header-right {
+  float: right;
+  color: #808080;
+}
+
+/* line 26, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.header-right li {
+  float: left;
+  padding: 20px 30px;
+  border-left: 1px solid #dddddd;
+}
+
+/* line 33, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.selected {
+  color: #ED7000;
+}
+
+/* line 38, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.main {
+  width: 1300px;
+}
+
+/* line 43, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.footer {
+  height: 200px;
+  clear: left;
+  border-top: 1px solid #dddddd;
+}
+
+/* line 50, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.footer-left {
+  float: left;
+  width: 200px;
+  padding: 30px 100px;
+}
+
+/* line 57, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.footer-left li {
+  margin-bottom: 5px;
+  /*文字の色を#808080にしてください*/
+  color: #808080;
+  /*太さ1px 種類dotted 色#808080 のborder-bottomをつけてください*/
+  border-bottom: 1px dotted #808080;
+}
+
+/* line 66, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.like-box {
+  float: left;
+  padding: 30px;
+}
+
+/* line 72, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.sidebar {
+  height: 600px;
+  width: 200px;
+  float: left;
+  padding: 30px;
+}
+
+/* line 80, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.sidebar li {
+  color: white;
+  background-color: #40bfb0;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+/* line 88, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.contents {
+  height: 600px;
+  width: 900px;
+  float: left;
+  padding: 30px;
+}
+
+/* line 96, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.contents h1 {
+  color: #40BFB0;
+}
+
+/* line 101, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.contents-top {
+  height: 300px;
+  color: #808080;
+}
+
+/* line 107, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.contents-top h1 {
+  margin-bottom: 30px;
+}
+
+/* line 112, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.contents-top-item {
+  width: 270px;
+  float: left;
+  padding-right: 30px;
+}
+
+/* line 119, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.contents-top-item h2 {
+  margin-bottom: 10px;
+}
+
+/* line 124, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.what-highlight {
+  color: #e6855e;
+}
+
+/* line 129, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.why-highlight {
+  color: #40bfb0;
+}
+
+/* line 134, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.how-highlight {
+  color: #f9db57;
+}
+
+/* line 139, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.contents-bottom h1 {
+  margin-bottom: 30px;
+}
+
+/* line 144, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+th,
+td {
+  padding: 10px 60px;
+  border: 1px solid #808080;
+}
+
+/* line 151, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+table {
+  border-collapse: collapse;
+}
+
+/* line 156, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.html-title {
+  color: #E6855E;
+}
+
+/* line 161, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.css-title {
+  color: #40BFB0;
+}
+
+/* line 166, /home/ubuntu/workspace/app/assets/stylesheets/home.scss */
+.php-title {
+  color: #F9DB57;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
